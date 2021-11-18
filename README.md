@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A test website.  
 
-Things you may want to cover:
+# Pre-requisites
 
-* Ruby version
+* ruby 3.0.2p
 
-* System dependencies
+* node v17.1.0
 
-* Configuration
+#Installation help:
 
-* Database creation
+```
+$ brew install rbenv
 
-* Database initialization
+# Update your bash_profile:
+#
+#  #rbenv
+#  if command -v rbenv 1>/dev/null 2>&1; then
+#    eval "$(rbenv init -)"
+#  fi
+#
+#
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rbenv install 3.0.2
+$ rbenv global 3.0.2
+$ brew install nodenv
+$ nodenv install 17.1.0
+$ nodenv global 17.1.0
+$ corepack enable
+``` 
