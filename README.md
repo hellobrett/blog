@@ -29,3 +29,6 @@ $ nodenv install 17.1.0
 $ nodenv global 17.1.0
 $ corepack enable
 ``` 
+
+# Docker Help
+See: https://blog.cloud66.com/deploying-rails-6-assets-with-docker/
